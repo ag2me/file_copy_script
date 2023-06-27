@@ -30,11 +30,11 @@ To use the script, you need to set the following parameters in the `config.json`
 
 jsonCopy code
 
-`{
+```json{
   "time_interval_in_minutes": 60,
   "source_dir_backup": "C:/source_folder",
   "destination_dir_backup": "Z:/destination_folder"
-}` 
+}``` 
 
 The `destination_dir_backup` can be one of the following:
 
