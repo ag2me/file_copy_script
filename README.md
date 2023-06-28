@@ -1,7 +1,7 @@
 
 # File Copy Script
 
-This script allows you to copy files from one folder to another. It was initially designed for local file copying, but it also has planned features for copying files via FTP, SSH, and rsync in the future.
+This Python script allows you to copy files from one folder to another. It was developed using Python version 3 and compiled into an executable using cx_Freeze. It was initially designed for local file copying, but it also has planned features for copying files via FTP, SSH, and rsync in the future.
 
 ## Features
 
