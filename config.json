@@ -1,0 +1,9 @@
+{
+    "time_interval_in_minutes":60,
+    "source_dir_backup":"C:/source_dir",
+    "destination_dir_backup":"Z:/destination_dir",
+    "allowed_extensions":[
+        ".bak",
+        ".jpeg"
+    ]
+}
