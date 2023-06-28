@@ -44,9 +44,16 @@ The `destination_dir_backup` can be one of the following:
 -   A file storage from a cloud service that is mapped to the local system.
 -   A local file server.
 
-## File Filtering
+## File Filtering and Advanced Copying
 
-You can specify the allowed file extensions that you want to copy within the `source_dir_backup` folder. By default, the script will copy all files.
+In addition to specifying the allowed file extensions to be copied within the `source_dir_backup` folder, this script provides advanced copying capabilities. By default, it applies the following conditions before copying a file:
+
+1.  **Size Comparison**: The script only copies files where the size of the source file is greater than the destination file. This ensures that only newer or modified files are copied, avoiding unnecessary duplication.
+    
+2.  **Integrity Check**: Before copying, the script performs an integrity check on the source file to ensure it is not corrupted. This helps maintain data integrity during the copying process.
+    
+
+These additional checks ensure that only relevant and intact files are copied, optimizing the copying process and reducing the risk of data corruption.
 
 ## Usage
 
